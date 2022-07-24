@@ -1,0 +1,20 @@
+# Notebooks
+.ipynb_checkpoints/
+
+# IDEs
+.idea
+.vscode
+
+# Python packages
+clasificacion_humedales/.ipynb_checkpoints
+clasificacion_humedales/__pycache__
+/clasificacion_humedales.egg-info/
+build
+dist
+
+# Data
+clasificacion_humedales/notebooks/data.pickle
+*aux.xml
+
+# Mac
+.DS_store

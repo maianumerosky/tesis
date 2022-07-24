@@ -1,0 +1,13 @@
+version: "3"
+services:
+  tesis-environment:
+    build: .
+    image: mnumerosky/tesis-environment
+    volumes:
+      - ./clasificacion_humedales/notebooks:/tesis/clasificacion_humedales/notebooks:rw
+      - ./clasificacion_humedales/utils:/tesis/clasificacion_humedales/utils:rw
+      - ./inputs:/tesis/inputs:rw
+      - ./outputs:/tesis/outputs:rw
+    ports:
+      - 8888:8888
+    container_name: tesis-notebook-container
