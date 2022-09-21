@@ -1,6 +1,5 @@
 import pickle
 import numpy as np
-import gdal
 import rasterio
 
 def directories():
